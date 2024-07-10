@@ -23,17 +23,7 @@ h1 {
     width: 100%;
     position: relative;
 }
-#top-container {
-    margin-bottom: 20px;
-    background: antiquewhite;
-    border-radius: 10px;
-    border: 2px solid #ccc;
-    padding: 100px;
-    position: absolute;
-    top: 20px;
-}
-
-#bottom-container {
+#top-container, #bottom-container {
     margin-bottom: 20px;
     background: antiquewhite;
     border-radius: 10px;
@@ -41,14 +31,11 @@ h1 {
     padding: 100px;
     position: relative;
 }
-.ice-cream-bowl {
+.ice-cream-bowl, .toppings-bowl {
     position: relative;
-    top: 5%;
 }
 
-.toppings-bowl {
-    position: relative;
-}
+.toppings-bowl 
 .ice-cream, .toppings {
     cursor: pointer;
     position: absolute;
