@@ -34,8 +34,6 @@ h1 {
 .ice-cream-bowl, .toppings-bowl {
     position: relative;
 }
-
-.toppings-bowl 
 .ice-cream, .toppings {
     cursor: pointer;
     position: absolute;
