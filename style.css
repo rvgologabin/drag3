@@ -23,7 +23,17 @@ h1 {
     width: 100%;
     position: relative;
 }
-#top-container, #bottom-container {
+#top-container {
+    margin-bottom: 20px;
+    background: antiquewhite;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+}
+
+#bottom-container {
     margin-bottom: 20px;
     background: antiquewhite;
     border-radius: 10px;
