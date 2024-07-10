@@ -31,7 +31,12 @@ h1 {
     padding: 100px;
     position: relative;
 }
-.ice-cream-bowl, .toppings-bowl {
+.ice-cream-bowl {
+    position: relative;
+    top: 5%;
+}
+
+.toppings-bowl {
     position: relative;
 }
 .ice-cream, .toppings {
